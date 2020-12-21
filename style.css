@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "montserrat", sans-serif;
+  background-color: black;
+  background-size: cover;
+  background-position: top center;
+  /* background-color: #c508ff; */
+  background-image: linear-gradient(#bd28eb, #e328f7);
+}
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+header input {
+  width: 100%;
+  height: 40px;
+  max-width: 280px;
+  padding: 10px, 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 16px 0px 16px 0px;
+  color: #313131;
+  border-bottom: 3px solid #df8e00;
+  font-size: 15px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.location .city {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.location .date {
+  color: #fff;
+  font-size: 16px;
+}
+.current .temp {
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 0px 0px;
+  text-shadow: 2px 8px rgba(0, 0, 0, 0.75);
+}
+.current .temp span {
+  font-weight: 500;
+}
+.current .weather {
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+.current .hi-low {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+#mine {
+  /* border: 2px solid rgb(182, 180, 180); */
+  width: 30%;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 16px 0px 16px 0px;
+  background-image: url("img3.jpg");
+  background-image: linear-gradient(rgba(34, 230, 207,0.6),rgba(7, 230, 250,0.2);
+}
